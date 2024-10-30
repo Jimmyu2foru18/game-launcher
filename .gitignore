@@ -1,5 +1,27 @@
+# Dependencies
 node_modules/
 dist/
+
+# Logs
 logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# System Files
 .DS_Store
-*.log 
+Thumbs.db
+
+# Old implementation files
+/modManager.js
+/games.json
+/updateChecker.js
+
+# Keep reference material
+!reference_material/
