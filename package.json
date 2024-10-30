@@ -1,0 +1,35 @@
+{
+  "name": "game-launcher",
+  "version": "1.0.0",
+  "description": "A modern game launcher with mod support and game management",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "test": "jest",
+    "build": "electron-builder build --win",
+    "postinstall": "electron-rebuild"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "winston": "^3.8.2",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "electron": "^16.2.8",
+    "electron-builder": "^23.6.0",
+    "electron-rebuild": "^3.2.9",
+    "jest": "^28.1.3",
+    "eslint": "^8.23.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimmyu2foru18/game-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jimmyu2foru18/game-launcher/issues"
+  },
+  "homepage": "https://github.com/Jimmyu2foru18/game-launcher#readme"
+} 
