@@ -1,0 +1,18 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+
+const app = express();
+app.use(express.json());
+
+app.post('/add-directory', (req, res) => {
+    // Logic to add a directory
+});
+
+app.get('/scan-games', (req, res) => {
+    // Logic to scan for games in a directory
+});
+
+app.listen(3000, () => {
+    console.log('Server running on http://localhost:3000');
+});
