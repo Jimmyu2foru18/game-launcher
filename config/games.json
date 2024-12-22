@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Awesome Game",
+    "path": "C:/Games/AwesomeGame/AwesomeGame.exe",
+    "modSupport": true,
+    "updateURL": "https://example.com/updates/awesome-game.json",
+    "version": "1.0.0"
+  },
+  {
+    "id": 2,
+    "name": "Super Adventure",
+    "path": "C:/Games/SuperAdventure/SuperAdventure.exe",
+    "modSupport": false,
+    "updateURL": "https://example.com/updates/super-adventure.json",
+    "version": "1.0.0"
+  }
+] 
